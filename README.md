@@ -2,5 +2,3 @@
 
 Setup manual for TurtleBot3.
 This is personal note book.
-
-Firstly, read `contents.md`, please.
