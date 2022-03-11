@@ -13,12 +13,16 @@
 http://old-releases.ubuntu.com/releases/18.04.4/
 
 webサイト内にある、以下のファイルをダウンロードする  
-`ubuntu-18.04.4-preinstalled-server-arm64+raspi3.img.xz`
+```
+ubuntu-18.04.4-preinstalled-server-arm64+raspi3.img.xz
+```
 
 ダウンロードしたファイルを解凍する  
 `.xz`が解凍できれば解凍ソフトは何でも良い(7-Zip, Archive Extractor Onlineなど)  
 解凍するとファイル名は以下のようになる  
-`ubuntu-18.04.4-preinstalled-server-arm64+raspi3.img`
+```
+ubuntu-18.04.4-preinstalled-server-arm64+raspi3.img
+```
 
 
 -----
@@ -39,7 +43,7 @@ ubuntuの書き込み作業を行うPCのOSに合ったものをダウンロー�
 ### 1.3. ubuntuの書き込み
 `Raspberry Pi Imager`を起動する  
 以下の手順に沿って`1.1.`で用意したイメージファイル(`ubuntu-18.04.4-preinstalled-server-arm64+raspi3.img`)をmicroSDカードに書き込む  
-※ 注意：microSDカードに保存されているデータは全て上書きされるので必要に応じてバックアップを取る  
+※ 注意：microSDカードに保存されているデータは全て上書きされるので必要に応じてバックアップを取る
 
 1. microSDカードをPCに接続する
 2. `CHOOSE OS`→`Use custom`の順に選択
@@ -53,9 +57,9 @@ ubuntuの書き込みが完了したら、microSDカードのマウントが解�
 
 
 ### 参考資料
-- TurtleBot3 3.2. SBC Setup
+- TurtleBot3 3.2. SBC Setup  
 https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup
-- 圧縮・解凍ソフト 7-Zip
+- 圧縮・解凍ソフト 7-Zip  
 https://sevenzip.osdn.jp/
-- Archive Extractor Online(アーカイブ エクストラクタ オンライン)
+- Archive Extractor Online(アーカイブ エクストラクタ オンライン)  
 https://extract.me/ja/
