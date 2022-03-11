@@ -43,9 +43,9 @@
 
 
 ## 参考資料
-- ROS2のディストリビューション
+- ROS2のディストリビューション  
 https://docs.ros.org/en/rolling/Releases.html
-- TurtleBot3 Quick Start Guide(Dashing, Eloquentと同じくubuntu18.04が前提なので, Foxyはubuntu20.04)
+- TurtleBot3 Quick Start Guide(Dashing, Eloquentと同じくubuntu18.04が前提なので, Foxyはubuntu20.04)  
 https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 
 
